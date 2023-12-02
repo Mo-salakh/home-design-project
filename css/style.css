@@ -234,4 +234,74 @@ body {
   font-size: 16px;
   font-weight: 200;
   line-height: 24px;
+}
+
+.costumers {
+  background-color: #403E3B;
+}
+.costumers_container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.costumers_contant {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+}
+.costumers_text {
+  max-width: 460px;
+  padding-right: 132px;
+}
+.costumers_text span {
+  color: #ECE7E4;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.costumers_text h3 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 38px;
+}
+.costumers_text p {
+  color: #ECE7E4;
+  font-weight: 200;
+  line-height: 24px;
+}
+.costumers_logos {
+  display: flex;
+  flex-direction: column;
+}
+.costumers_logos img {
+  padding: 50px;
+}
+
+.swirling_contant {
+  background: url("../img/swirling-bg.jpg") lightgray 50%/cover no-repeat;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.swirling_text {
+  padding-left: 50px;
+}
+.swirling_text span {
+  color: #403E3B;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.swirling_text p {
+  color: #645C55;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */
