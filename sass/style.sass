@@ -27,7 +27,31 @@ body
 
     p 
     padding: 11px 20px
-    
+
+.partners_info
+    display: flex
+    align-items: center
+    padding: 15px 0
+
+.partner_info
+    display: flex
+    flex-direction: column
+    padding: 30px
+    &-name
+        span
+            color: #1B1A1A
+            font-size: 17px
+            font-weight: 400
+            line-height: 26px
+    &-job
+        span
+            color: #645C55
+            font-size: 14px
+            line-height: 14px
+    &-img
+        img
+            width: 84px
+            height: 84px
         
  
 
@@ -100,24 +124,6 @@ body
                 font-weight: 200
                 line-height: 38px
         &_grade
-
-            &-man
-                display: flex
-                align-items: center          
-.man_info
-    display: flex
-    flex-direction: column
-    margin: 30px
-    &_name
-        color: #1B1A1A
-        font-size: 17px
-        font-weight: 400
-        line-height: 26px
-    &_job
-        Copy
-        color: #645C55
-        font-size: 14px
-        line-height: 14px
 
 .house
     background: url("../img/bg.jpg") lightgray 50% / cover no-repeat
@@ -213,6 +219,7 @@ body
 
 .costumers
     background-color: #403E3B
+    padding: 60px 135px
     &_container
         max-width: 1024px
         margin: 0 auto
@@ -222,6 +229,7 @@ body
         margin: 0 auto
         display: inline-flex
         align-items: center
+        
 
     &_text
         max-width: 460px
@@ -275,7 +283,30 @@ body
             line-height: 24px
 
 
-    
+.team
+    &_contant
+        max-width: 1200px
+        margin: 0 auto
+        padding: 100px
+        display: flex
+    &_text
+        max-width: 380px
+        padding: 10px 0 0 0
+        span
+            color: #403E3B
+            font-size: 32px
+            font-weight: 200
+            line-height: 38px
+        p
+            color: #645C55
+            font-size: 15px
+            font-weight: 200
+            line-height: 24px
+            padding: 15px 0 25px 0
+    &_partners
+        display: flex
+.team_partners1
+    padding: 0 90px 0 0
 
 
 

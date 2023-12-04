@@ -15,7 +15,7 @@ body {
 
 .container {
   max-width: 1300px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .btn {
@@ -31,6 +31,33 @@ body {
   border-radius: 14px;
   cursor: pointer;
 }
+.partners_info {
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+}
+
+.partner_info {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.partner_info-name span {
+  color: #1B1A1A;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.partner_info-job span {
+  color: #645C55;
+  font-size: 14px;
+  line-height: 14px;
+}
+.partner_info-img img {
+  width: 84px;
+  height: 84px;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -106,27 +133,6 @@ body {
   font-size: 32px;
   font-weight: 200;
   line-height: 38px;
-}
-.firm_contant_grade-man {
-  display: flex;
-  align-items: center;
-}
-
-.man_info {
-  display: flex;
-  flex-direction: column;
-  margin: 30px;
-}
-.man_info_name {
-  color: #1B1A1A;
-  font-size: 17px;
-  font-weight: 400;
-  line-height: 26px;
-}
-.man_info_job {
-  color: #645C55;
-  font-size: 14px;
-  line-height: 14px;
 }
 .house {
   background: url("../img/bg.jpg") lightgray 50%/cover no-repeat;
@@ -238,6 +244,7 @@ body {
 
 .costumers {
   background-color: #403E3B;
+  padding: 60px 135px;
 }
 .costumers_container {
   max-width: 1024px;
@@ -304,4 +311,35 @@ body {
   font-size: 16px;
   font-weight: 200;
   line-height: 24px;
+}
+
+.team_contant {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+  display: flex;
+}
+.team_text {
+  max-width: 380px;
+  padding: 10px 0 0 0;
+}
+.team_text span {
+  color: #403E3B;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 38px;
+}
+.team_text p {
+  color: #645C55;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 24px;
+  padding: 15px 0 25px 0;
+}
+.team_partners {
+  display: flex;
+}
+
+.team_partners1 {
+  padding: 0 90px 0 0;
 }/*# sourceMappingURL=style.css.map */
